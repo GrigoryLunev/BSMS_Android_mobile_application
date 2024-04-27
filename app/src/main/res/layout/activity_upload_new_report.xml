@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#43959595"
+    tools:context="com.example.not_in_my_back_yard.UploadNewReport">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="15dp"
+        android:elevation="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88959595"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/Choose_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChoose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Choose Photo"
+            app:cornerRadius="50dp"
+            android:backgroundTint="#29587C"
+            android:elevation="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Upload_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        >
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/btnUpload"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="Upload Photo"-->
+<!--            app:cornerRadius="50dp"-->
+<!--            android:backgroundTint="#29587C"-->
+<!--            android:elevation="10dp"-->
+<!--            />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textViewlocation_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+   <!--     <TextView
+            android:id="@+id/textViewLocationBTN"
+            android:text="Current Location"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingTop="5dp"
+            />-->
+
+        <TextView
+            android:id="@+id/textViewLocation_Lat"
+            android:text="Lat: "
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="right"
+            />
+
+        <TextView
+            android:id="@+id/textViewLocation_Lon"
+            android:text="Lon: "
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Comment_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <EditText
+                android:id="@+id/editText_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="24dp"
+                android:ems="10"
+                android:hint="Enter a short comment"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Post_Report"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Place_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#29587C"
+        android:elevation="10dp"
+        android:text="Place Report"
+        app:cornerRadius="50dp" />
+
+</RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

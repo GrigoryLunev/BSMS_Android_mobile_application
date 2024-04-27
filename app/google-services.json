@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929556059415",
+    "project_id": "nimby-a69ae",
+    "storage_bucket": "nimby-a69ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929556059415:android:30f189d93e9b901398d352",
+        "android_client_info": {
+          "package_name": "com.example.not_in_my_back_yard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929556059415-5nnorvnjs6ns1nrb8iakh2ths6nsudnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXZGDWPnGFQ2GLhHJiQVgEB7cXHRbWaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929556059415-5nnorvnjs6ns1nrb8iakh2ths6nsudnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
